@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prepare": "husky install",
     "dev": "npm run init:db && prisma generate && next dev",
     "build": "prisma db push --accept-data-loss && prisma generate && next build",
     "build:local": "npm run init:db && prisma generate && next build",
