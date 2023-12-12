@@ -4,8 +4,6 @@
   "description": "",
   "scripts": {
     "shared": "pnpm -F @my-monorepo/shared",
-    "front": "pnpm -F @my-monorepo/front",
-    "backend": "pnpm -F @my-monorepo/backend",
     "next-js-study": "pnpm -F next-js-study dev",
     "react-shopping-mall": "pnpm -F react-shopping-mall start",
     "dev": "pnpm -r dev"
