@@ -129,6 +129,7 @@ function MyApp({
     <>
       <QueryClientProvider client={queryClient}>
         <Hydrate state={pageProps.dehydratedState}>
+          {/* @ts-ignore */}
           <RecoilRoot>
             <Head>
               <meta

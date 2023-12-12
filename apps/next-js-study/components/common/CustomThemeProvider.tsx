@@ -26,7 +26,9 @@ const CustomThemeProvider = ({ children }: ICustomThemeProviderProps) => {
   };
 
   const provider = (
+    // @ts-ignore
     <ThemeProvider theme={themeMode}>
+      {/* @ts-ignore */}
       <DimmedLayer show={show} onClick={handleDimmedLayerClick} />
       {children}
     </ThemeProvider>
